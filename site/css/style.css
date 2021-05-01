@@ -1,95 +1,91 @@
+html{
+    font-size: 10px;
+}
+
 body{
-    background-color: #f4f4f4;
-    color: #555;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 1.6em;
-    margin: 0;
-}
-
-.container{
-    width: 80%;
-    margin: auto;
-    display: flex;
-}
-
-#main-header{
-    background-color: coral;
-    color: #fff;
-}
-
-#main-header{
-    background-color: coral;
-    color: #fff;
-}
-
-#navbar{
-    background-color: #333;
-    color: #fff;
-}
-
-#navbar ul{
-    padding: 0;
-    list-style: none;
-}
-
-#navbar li{
-    display: inline;
-}
-
-#navbar a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 12px;
-    padding-right: 15px;
-}
-
-#showcase{
-    background-image: url("../images/showcase.jpeg");
-    background-position: center right;
-    min-height: 300px;
-    margin-bottom: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
     text-align: center;
-}
-
-#showcase h1{
-    color: #fff;
-    font-size: 50px;
-    line-height: 1.6em;
-    padding-top: 30px;
+    margin: 0;
+    color: #333;
 }
 
 #main{
-    float: left;
-    width: 70%;
-    padding: 0 30px;
-    box-sizing: border-box;
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
 }
 
-#sidebar{
-    float: right;
-    width: 30%;
-    background: #333;
-    color: #fff;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-#main-footer{
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    margin-top: 40px;
-}
-
-@media(max-width:2000px){
-    main{
-        width: 100%;
-        float: none;
+@media (max-width: 460px){
+    #main{
+        margin: 0;
     }
-    sidebar{
-        width: 100%;
-        float: none;
+}
+
+#title h1{
+    margin-bottom: 0;
+    font-size: 4rem;
+}
+
+@media (max-width:460px) {
+    #title h1{
+        font-size: 3.5rem;
+        line-height: 1.2;
     }
+}
+
+#img-div{
+    background-color: white;
+    padding: 10px;
+    margin:0;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px){
+    #img-caption {
+        font-size: 1.4rem;
+    }
+}
+
+#headline{
+    margin: 50px 0;
+}
+
+ul{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+li{
+    margin: 16px 0;
+}
+
+blockquote{
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    font-style: italic;
+}
+
+
+a {
+    color: #477ca7;
+}
+
+a:visited{
+    color: #74638f;
 }
