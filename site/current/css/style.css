@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0;
+    color: #333;
+    background: #eee;
+}
+
+#main-header{
+    margin: 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#image-title img{
+    height: 35px;
+    width: 270px;
+    background-color: #eee;
+}
+
+#nav-bar{
+    margin: 0 15px;
+}
+
+#nav-bar a{
+    padding: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+}
+
+#title h1{
+    margin: 0;
+    font-size: 25px;
+}
+
+#email{
+    display: block;
+    margin: 12px auto;
+    padding: 5px;
+    width: 25rem;
+}
+
+#register h2{
+    margin-bottom: 15px;
+}
+
+#submit{
+    border: none;
+    background-color: chocolate;
+    font-size: 1.6rem;
+    font-weight: 800;
+    padding: 5px 15px;
+}
+
+#submit:hover{
+    background-color: darkgoldenrod;
+    cursor: pointer;
+}
+
+#Features{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 6rem auto 4rem auto;
+    align-items: left;
+}
+
+.sub-feature{
+    display: flex;
+    padding: 30px 0;
+
+}
+
+.feature-text{
+    box-sizing: initial;
+    text-align: left;
+    margin-left: 6rem;
+}
+
+.feature-text h2,p{
+    margin: 0;
+    text-align: left;
+}
+
+.feature-text h2{
+    font-size: 2rem;
+}
+
+.feature-text p{
+    font-size: 1.3rem;
+    line-height: 1.2rem;
+}
+
+
+.material-icons.md-48{
+    padding: 0;
+    font-size: 60px;
+    color: darkorange;
+}
+
+iframe{
+    height: 35rem;
+    width: 55rem;
+    margin-bottom: 4rem;
+}
+
+#Pricing{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.product{
+    border: solid;
+    border-width: thin;
+    height: 30rem;
+    width: 30rem;
+    margin: 2rem 1rem;
+}
+
+.product h3{
+    margin: 0%;
+    background-color: lightgray;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+
+.product ul{
+    list-style: none;
+    padding: 0%;
+    font-size: 1.5rem;
+    font-weight: 550;
+    line-height: 2.75rem;
+}
+
+.select{
+    border: none;
+    background-color: chocolate;
+    font-size: 1.6rem;
+    padding: 10px 15px;
+}
+
+.select:hover{
+    background-color: darkgoldenrod;
+    cursor: pointer;
+}
+
+#main-footer{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: lightgray;
+    margin: auto;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.Terms{
+    display: flex;
+}
+
+.Terms h4{
+    margin: 0;
+    padding: 0 8px;
+    font-size: 1.5rem;
+}
+
+#main-footer{
+    font-size: 1.25rem;
+}
